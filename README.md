@@ -47,7 +47,7 @@ To reproduce the example analysis, execute the scripts in the following order:
    Runs the MCMC sampler for the hierarchical spatio-temporal model.
 
 3. `posterior_analysis.R`  
-   Performs posterior analysis and generates summaries of the results.
+   Performs convergence checks, calculate the posterior predictive distribution and generates summaries of the results.
 
 The files `Inputs_sampler.R` and `sampler.R` contain the functions that construct the sampler inputs and implement the MCMC algorithm.
 
@@ -69,16 +69,16 @@ These parameters can be modified directly in the scripts `Execution.R` and `post
 ## Dependencies
 
 The code requires the following R packages:
-bayesplot
-coda
-forecast
-geoR
-ggplot2
-invgamma
-patchwork
-PrevMap
-sf
-spdep
-stringi
-tidyverse
+bayesplot,
+coda,
+forecast,
+geoR,
+ggplot2,
+invgamma,
+patchwork,
+PrevMap,
+sf,
+spdep,
+stringi,
+tidyverse,
 zoo
