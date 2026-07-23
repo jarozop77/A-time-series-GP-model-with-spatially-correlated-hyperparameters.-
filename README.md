@@ -1,8 +1,10 @@
 # A Time-Series Gaussian Process Model with Spatially Correlated Hyperparameters
 
-This repository contains the R implementation of the modeling framework proposed in the research paper:
+This repository contains the R implementations of the modeling framework proposed in the research paper:
 
 **“A Time-Series Model for Areal Data Using Area-Specific Gaussian Processes with Spatially Correlated Hyperparameters.”**
+
+The repository contains two MCMC implementations: i) a taylor-made MCMC algorithm and ii) a model implemented in Stan. 
 
 The code allows users to run the proposed spatio-temporal model and reproduce the analysis workflow presented in the paper.
 
